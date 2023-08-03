@@ -3,6 +3,8 @@ let attempts;
 
 
 function guessNumber() {
+    document.querySelector('.container').style.background = "azure";
+
     document.querySelector("#alert").innerHTML = "";
     const previousPlayAgainButton = document.querySelector(".H");
     if (previousPlayAgainButton) {
