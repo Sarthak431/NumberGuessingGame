@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Berkshire+Swash&family=Caprasimo&family=Lato&family=Lobster&family=Rubik+Moonrocks&family=Satisfy&family=Shrikhand&display=swap');
+
+h1{
+    font-family: 'Shrikhand',sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+    padding: 0;
+}
+
+.container
+{
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    /* border: 2px solid #333; */
+
+    background:azure;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    padding:0px 20px;
+}   
+
+
+
+.H {
+    background-color: #7700ff;
+    color: #fff;
+    padding: 55px 50px;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+    font-size: 50px;
+    transition: background-color 0.3s ease;
+    font-family: 'Satisfy', cursive;
+    margin-top :102px; 
+  }
+
+  .H:hover {
+    background-color: #008cff;
+  }
+  
+  
+
+#B
+{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+#C
+{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+
+}
+
+input
+{
+    padding : 8px 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#D
+{
+    width: 345px;
+    padding:10px 10px;
+    border-radius: 10px;
+    color: azure;
+    background-color: black;
+    margin-top: 5px;
+    border: none;
+}
+
+
+
+#red
+{
+    font-size: 25px;
+    font-family: 'Berkshire Swash', cursive;
+    color: red;
+    font-weight: 600;
+}
+
+
+#green
+{
+    font-size: 25px;
+    font-family: 'Berkshire Swash', cursive;
+    color:green;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+
+#K
+{
+    font-size: 40px;
+    padding: 30px 43px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.5s;
+}
